@@ -4,53 +4,154 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Super Market</title>
   <style>
-     *{padding: 0%; margin: 0%;}
+    * {
+      padding: 0%;
+      margin: 0%;
+    }
   </style>
 </head>
+
 <body>
-  <img src="C:\Users\ELCOT\Desktop\intern\images\travel.jpg" style="display: flex; flex: 1;" width="100%" height="70px" > 
-</body>
-</html>
-  <!-- <form>
-    <h1 align="center"> Ayyappa Travels</h1>
+  <img src="./Virat1.jfif" width="100%" height="80px">
+  <form>
+    <h1 align="center">VAP SUPER MARKET (p-1)</h1><BR>
     <div align="center">
-      <label for="member">Passenger Name </label>
-      <input type="text" name="member" id="member" placeholder="YOUR NAME">
+      <table align="center">
+        <tbody>
+          <tr>
+            <td style="padding: 10px;"> CUSTOMER NAME</td>
+            <td><input type="text" name="uname" id="uname" placeholder=" Enter Your Name"></td>
+            <td style="padding: 10px;">Date of Buying</td>
+            <td><input type="date" name="date" id="date"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div align="center">
-      <label for="Age">Age</label>
-      <input type="text" name="Age" id="Age" placeholder="Your Age">
-    </div>
+      <table style="padding: 2px;">
+        <tr>
+          <label><b>PRODUCT LIST:</b></label><br>
+          <td style="padding: 10px;"><input style="margin-right:4px;" type="checkbox" value="milk">MILK PRODUCTS</td>
+          <td style="padding: 10px;"><input style="margin-right:4px;" type="checkbox" value="choco">CHOCOLATES</td>
+          <td style="padding: 10px;"><input style="margin-right:4px;" type="checkbox" value="fruit">FRUITS</td>
+          <td style="padding: 10px;"><input style="margin-right:4px;" type="checkbox" value="biscuit">BISCUIT</td>
+          <td style="padding: 10px;"><input style="margin-right:4px;" type="checkbox" value="ice">ICE CREAM</td>
+          <td style="padding: 10px;"><input style="margin-right:4px;" type="checkbox" value="dog">DOG FOOD</td>
+        </tr>
+      </table>
+      <input type="submit" value="SUBMIT"
+        style="width: 100px; height: 25px; text-align: center; background-color: royalblue; border-color:lightgrey; cursor: pointer; border-radius: 15px;">
+    </div><br>
+    <h4 style="font-weight: normal; text-align: center;"> CHECK AVAILABE ITEMS (p-2)</h4><br>
     <div align="center">
-      <label for="TO">ARRIVAL</label>
-      <input type="text" name="TO" id="TO" placeholder="ARRIVAL">
-    </div>
-    <div align="center">
-      <label for="demo">Gender</label>
-      <input type="radio" name="gender" id="gender" >MALE
-      <input type="radio" name="gender" id="gender" >FEMALE
-    </div>
-    <div align="center">
-      <label for="Priya">Enter the Category</label>
-      <input type="checkbox" name="check1" value="AC"> AC
-      <input type="checkbox" name="check2" value="NON AC">NON AC
-    </div>
-    <div align="center">
-      <label for="Payment">Enter Payment Mode</label>
-      <select name="payments" id="payments" width="40" >
-        <option value="select mode">Payments mode</option>
-        <option value="Gpay">Gpay</option>
-        <option value="Debit">Debit card</option>
-        <option value="Credit">Credit card</option>
+      <label style="margin-right: 20px; padding-right: 12px;">Milk Products </label>
+      <select style="width: 90px; ">
+        <option value="chose">Milk</option>
+        <option value="milk">Ice Cream</option>
+        <option value="cheese"> Cheese</option>
+        <option value="churd">Curd</option>
+        <option value="Yogurt">Frozen Yogurt</option>
+        <option value="ice">Ice Milk</option>
       </select>
-    </div>
+    </div><br>
     <div align="center">
-      <input type="submit" value="SUBMIT" />
-      <input type="button" value="CANCEL" />
-    </div>
+      <label style="margin-right: 20px; padding: 19px;"> Chocolate </label>
+      <select style="width: 90px;">
+        <option>5 Star</option>
+        <option>Cadbury</option>
+        <option>Chunky</option>
+        <option>Kit Kat</option>
+        <option>Neslte</option>
+        <option>Snickers</option>
+      </select>
+    </div><br>
+    <div align="center">
+      <label style=" padding: 42px;"> Fruits</label>
+      <select style="width: 90px;">
+        <option>Apple</option>
+        <option>Banana</option>
+        <option>Orange</option>
+        <option>Grapes</option>
+        <option>Starberry</option>
+        <option>Guava</option>
+      </select>
+    </div><br>
+    <div align="center">
+      <label style="  padding: 38px;"> Biscuit </label>
+      <select style="width: 90px;">
+        <option>Parle G</option>
+        <option>Britannia</option>
+        <option>Sunfeast</option>
+        <option>Priyagold</option>
+        <option>Anmol</option>
+        <option>Happy Happy</option>
+      </select>
+    </div><br>
+    <div align="center">
+      <label style="margin-right: 20px; padding: 18px;"> Ice Cream </label>
+      <select style="width: 90px;">
+        <option>Vanilla</option>
+        <option>Mango</option>
+        <option>Chocolate</option>
+        <option>Blueberry</option>
+        <option>Strawberry</option>
+        <option>Mint Chocolate Chip</option>
+      </select>
+    </div><br>
   </form>
+  <hr width="100px" color="black"align="center"><br>(P-3)
+  <div align="center">
+    <table align="center" border="1" style="width: 50%;">
+      <tbody>
+        <th rowspan="3" style="padding: 20px;" align="top">
+          <h3>VAP BILL CHECK LIST FOR </h3>
+        </th>
+        <tr style="padding: 10px; height: 40px; border: unset;">
+          <td>
+            <H5> Date of Buying <input type="date"></H5>
+          </td>
+        </tr>
+        <tr style="padding: 10px; height: 40px; border: unset">
+          <td>
+            <h5>Phone No:<input type="tel" placeholder="Phone Number" style="width: 100px;"></h5>
+          </td>
+        </tr>
+        <tr >
+          <td style="width: 50px;">1</td>
+          <td style="width: 50px;"></td>
+          <td style="width: 50px;"></td>
+          <td style="width: 50px;">u</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
 </body>
 
-</html> -->
+</html>
