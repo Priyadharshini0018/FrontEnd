@@ -1,0 +1,6 @@
+git init
+git status
+git add .
+git commit -m "commit msg"
+git remote add origin "rep link" (right click)
+git push origin master
