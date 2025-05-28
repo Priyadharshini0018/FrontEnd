@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="container-fluid">
+  <h2 class="text-center text-uppercase mb-4 mt-4"><b>Patient Registration Form</b></h2>
+  <div class="row justify-content-center">
+    <form class="bg-danger col-lg-6 col-md-8 col-sm-12 text-light">
+      <div class="row justify-content-around">
+        <h4 align="center" class="mt-4 mb-4 text-dark">Personal Details </h4>
+        <div class="col-6 mt-2">
+          <label class="form-label">Name :</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-6 mt-2">
+          <label class="form-label">Date of Birth :</label>
+          <input type="datetime-local" class="form-control">
+        </div>
+
+        <div class="mt-5 col-6">
+          <label class="form-label"> Gender : </label>
+          <input type="checkbox"> FEMALE
+          <input type="checkbox"> MALE
+        </div>
+        <div class="mt-4 col-6 ">
+          <label class="form-label">Age :</label>
+          <input type="number" class="form-control">
+        </div>
+        <div class="mt-3">
+          <label class="form-label">Address :</label>
+          <textarea placeholder="Address" class="form-control"></textarea>
+        </div>
+        <div class="mt-3 col-6">
+          <label class="form-label">State :</label>
+          <input class="form-control" type="text" placeholder="Enter Your State">
+        </div>
+        <div class="mt-3 col-6">
+          <label class="form-label">Zip Code :</label>
+          <input class="form-control" type="number">
+        </div>
+
+        <div class="mt-3 col-6">
+          <label class="form-label">Phone Number :</label>
+          <input class="form-control" type="tel" placeholder="Phone Number">
+        </div>
+        <div class="mt-3 col-6">
+          <label class="form-label">Alternative Number :</label>
+          <input class="form-control" type="tel" placeholder="Phone Number">
+        </div>
+        <div class="mt-3 col-6">
+          <label class="form-label">Parent/Legal Guardian Name :</label>
+          <input class="form-control" type="text">
+        </div>
+        <div class="mt-3 col-6">
+          <label class="form-label">Blood Type :</label>
+          <select class="form-select">
+            <option>Blood Type </option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+          </select>
+        </div>
+
+        <div class="mt-3">
+          <label class="form-label">Reason for visit :</label>
+          <textarea class="form-control">Describe</textarea>
+        </div>
+
+        <div class="mt-5">
+          <h4 align="center" class="mb-4 text-dark">PAST MEDICAL HISTORY: Please check any of YOUR previous conditions
+          </h4>
+          <div>
+            <input type="checkbox" class="form-check-input">Diabetes Type I
+            <input type="checkbox" class="form-check-input">Diabetes Type II
+            <input type="checkbox" class="form-check-input">Lupus/Autoimmune
+            <input type="checkbox" class="form-check-input">High Blood Pressure
+            <input type="checkbox" class="form-check-input">Coronary Artery Dis.
+            <input type="checkbox" class="form-check-input">Blood Clots
+            <input type="checkbox" class="form-check-input">Heart Attack
+            <input type="checkbox" class="form-check-input">Anxiety
+            <input type="checkbox" class="form-check-input">Depression
+            <input type="checkbox" class="form-check-input">Kidney Disease
+            <input type="checkbox" class="form-check-input">Thyroid Disease
+            <input type="checkbox" class="form-check-input">HIV/AIDS
+            <input type="checkbox" class="form-check-input">Asthma
+            <input type="checkbox" class="form-check-input">Cancer
+            <input type="checkbox" class="form-check-input">Other
+          </div>
+          <div class="mt-3">
+            <label> Discribe Your Previous Conditions</label>
+            <textarea class="form-control" placeholder="Discribe Your previous Conditions"> </textarea>
+          </div>
+        </div>
+        <div class="container mt-5 ">
+          <h4 align="center" class="text-uppercase text-dark">Past surgical history</h4>
+          <table class="table  table-bordered  table-primary text-center mt-4">
+            <thead>
+              <tr class="text-primary">
+                <th>YEAR</th>
+                <th>TYPE</th>
+              </tr>
+              <tr style="height: 30px;" class="text-secondary">
+                <td></td>
+                <td></td>
+              </tr>
+              <tr style="height: 30px;" class="text-secondary">
+                <td></td>
+                <td></td>
+              </tr>
+              <tr style="height: 30px;" class="text-secondary">
+                <td></td>
+                <td></td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="mt-5">
+          <h4 class="text-center text-dark">SOCIAL HISTORY</h4>
+          <div class="mt-4"><label class="form-label"> Marital Status :</label>
+            <input type="checkbox" class="form-check-input"> Single
+            <input type="checkbox" class="form-check-input"> Married
+            <input type="checkbox" class="form-check-input"> Divorce
+          </div>
+          <div class="mt-3">
+            <label class="form-label">Number of Children :</label>
+            <input type="number">
+          </div>
+          <div class="mt-3">
+            <label class="form-label ">Alcohol use :</label>
+            <input type="checkbox" class="form-check-input">Does not drink
+            <input type="checkbox" class="form-check-input">Former use
+            <input type="checkbox" class="form-check-input">Drinks rarely
+            <input type="checkbox" class="form-check-input">Drinks socially
+            <input type="checkbox" class="form-check-input">Heavy drinks
+            <input type="checkbox" class="form-check-input">Never
+          </div>
+          <div class="mt-4">
+            <label class="form-label">Presently working :</label>
+            <input type="checkbox">Yes
+            <input type="checkbox">No
+          </div>
+        </div>
+        <div align="center" class="mt-5">
+          <button type="reset" class="btn btn-outline-light">CANCEL</button>
+          <button type="submit" class="btn btn-outline-light">SUBMIT</button>
+
+        </div>
+    </form>
+  </div>
+</body>
+
+</html>
