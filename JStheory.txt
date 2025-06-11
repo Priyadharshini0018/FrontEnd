@@ -1,0 +1,54 @@
+Frontend 3 must language:
+
+i)HTML 
+ii)CSS
+iii)JavaScript
+
+JAVASTRING:
+
+>It is used to create dynamic , static and interactive web content
+>easy to implement with html code
+>Data type--int,boolen,string,long,short,char,byte
+
+JS display options:
+
+>alert()
+>document.write()
+>console.log()
+
+JS Keywords:
+
+>var -- 1995-2015 (the code run in old browser)
+>let -- 2015 & till
+>const -- can not change the value
+
+JS Functions:
+
+Function -- To perform a particular task(Function and fat arrow function)
+SYNTAX:
+1)Function:                            2)Fat arrow function:
+ 
+function funtion_name()                 keyword functioname=()=>   
+{                                       {
+//statement                              //statement
+}                                       }
+
+JS Array:
+
+>It can hold more than one value
+>Dynamic storage
+>To create an Arrray in 2 way:-
+
+        i)keyword variablename = []            ---> let example = [12,45,5,18];
+        ii)keyword variablename = new Array()  ---> let example = new Arrat(assignd values);
+        
+         ARRAY CRUDL METHODS:-
+            i)   Push()   - to add new element in array
+  	    ii)  Pop()    - to remove last element of the array
+            iii) length() - length of the element
+            iv)  filter() - update,delete a particular index
+            v)   map()    - create a new array from calling a function for every array element
+            vi) shift()   - delete the first element of the Array
+            vii)unshift() - add element in first 
+
+CRUD operation -- Create , Read, Update, Delete

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let cartoon = new Array();
+    cartoon.push('shinchan')
+    cartoon.push('doremon')
+    cartoon.push('oggy')
+    cartoon.push('ben10')
+    //cartoon.unshift('chotta bheem')//add element in first
+    //cartoon.shift() //delete first element
+    //cartoon.sort() //-- alphabetical order
+    //cartoon.pop()//delete the last element
+  
+
+    //document.writeln(cartoon)
+    
+    //for(i=0;i<cartoon.length;i++)
+  //{
+    //alert(cartoon)
+  //}
+
+let one=prompt("Enter the Delete Position")
+cartoon=cartoon.filter((temp,pos)=>{
+  return temp==cartoon[one]; //jana!==temp[i]
+})
+cartoon.map((temp)=>
+{
+  document.write(temp)
+})
+  </script>
+</body>
+
+</html>

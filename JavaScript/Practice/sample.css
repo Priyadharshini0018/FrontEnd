@@ -1,0 +1,10 @@
+ body{
+  background-color: color-mix(in srgb,rgb(34, 34, 196) 20%, rgb(177, 77, 77) 20%);
+ }
+ .trend{
+  text-align: center;
+ }
+ .list{
+ color:black ;
+ height: 10px;;
+}
